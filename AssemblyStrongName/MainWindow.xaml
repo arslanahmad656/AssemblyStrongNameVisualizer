@@ -1,0 +1,22 @@
+﻿<Window x:Class="AssemblyStrongName.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssemblyStrongName"
+        mc:Ignorable="d"
+        Title="Assembly Strong Name Visualizer" Height="332.649" Width="963.552"
+        ResizeMode="CanMinimize">
+    <StackPanel Margin="10">
+        <StackPanel>
+            <WrapPanel Margin="0,0,10,0">
+                <TextBlock VerticalAlignment="Center" FontSize="16">Choose a file:</TextBlock>
+                <Button x:Name="Btn_Browse" Click="Btn_Browse_Click" Padding="20 10" Content="Browse" Margin="30 0 0 0"/>
+            </WrapPanel>
+            <StackPanel Margin="0 30 0 0">
+                <TextBlock FontSize="16">Information</TextBlock>
+                <TextBox x:Name="Txt_Output" IsReadOnly="True" Height="184" FontSize="16" Padding="10 5" FontFamily="Consolas"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
