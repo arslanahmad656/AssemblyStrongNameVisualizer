@@ -39,6 +39,7 @@ namespace AssemblyStrongName
                 Txt_Output.Text += $"Culture: {culture}{Environment.NewLine}";
                 Txt_Output.Text += $"Public Key: {key}{Environment.NewLine}";
                 Txt_Output.Text += $"Full Name: {fullName}{Environment.NewLine}";
+                Txt_Output.Text += $"Path: {filePath}{Environment.NewLine}";
             }
             catch (Exception ex)
             {
